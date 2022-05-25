@@ -1,0 +1,40 @@
+Respuestas Homework JS I-Aquili Lourdes
+
+
+
+1) Variables 
+En programación, una variable es un elemento al que se le asigna un nombre y un valor (almacenamiento de datos)
+para utilizar más tarde.
+Sirve para guardar información que nos va a ser útil y luego recuperarla a la hora de ejecutar comandos.
+
+2) Strings
+Los string son una cadena de cáracteres (texto) que se escriben siempre entre comillas.
+
+3) Funciones
+Una función es un tipo de objeto invocable, nos sirve para comunicarnos con el ínterprete e indicarle 
+que vamos a ejecutar una acción. Siempre empiezan con la palabra "function" seguida del nombre que le hayamos
+asignado (debe ser fácil de recordar y en lo posible estar realcionado con la acción que va a realizar).
+Luego se le asignan los argumentos entre paréntesis, finalmente entre corchetes escribimos el código que queremos 
+que la función a la hora de ser invocada.
+
+Argumentos
+Un argumento es el tipo de variable que nosotros querramos darle a la función a la hora de ejecutarla, la función
+se ejecuta de la misma forma pero cambian los valores por ej, si quiero hacer una función de suma puedo hacer:
+function suma (a,b) { return a+b; } de esta forma yo puedo cambiar el valor de los argumentos -por ejemplo 
+ingresando (1,2) y la función lo va a ejecutar con los argumentos asginados.
+
+Return
+Cuando creamos una función lo mas probable es que esperemos quenos devuelva algo. En este caso dentro del código que creamos
+utilizamos "return" para indicarle a la función que nos tiene que devolver algo en base a los argumentos que
+le pedimos. En el ejemplo anterior utilicé return para indicarle a función que quería que me devuelva el resultado
+de una suma de arugmentos.
+
+Declaración if
+Cuando queremos que el ínterprete nos declare si se cumple o no una condición con los argumentos de una función
+utilizamos la delcaración if dentro del código, de esta manera ejecuta una sentencia si dicho 
+argumento cumple o no con la
+condición y nos arroja una respuesta que habremos determinado dentro del codigo. 
+
+Valores booleanos
+Los booleanos es un tipo de dato primitivo que sólo tienen dos opciones: true (verdadero) o false (falso)
+
