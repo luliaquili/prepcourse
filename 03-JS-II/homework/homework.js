@@ -76,7 +76,7 @@ function estaEnRango(numero) {
   if(numero<50 && numero>20) return true; else return false;
 }
 
-function esEntero(numero) {
+function esEntero(numero) { 
   // Devuelve "true" si "numero" es un entero (int/integer)
   // Ejemplo: 0.8 -> false
   // Ejemplo: 1 -> true
@@ -84,7 +84,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero%1===0)return true; else return false;
+  if (numero%1===0)return true; return false;
 }
 
 function fizzBuzz(numero) {
@@ -133,7 +133,7 @@ if (valor===true) return "Soy verdadero" ;
 return "Soy falso";
 }
 
-function tablaDelSeis(){
+function tablaDelSeis(){ /// NO ME DIO
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
@@ -151,7 +151,7 @@ function tieneTresDigitos(numero){
 
 }
 
-function doWhile(numero) {
+function doWhile(numero) { ///NO ME DIO
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
